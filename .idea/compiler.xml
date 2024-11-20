@@ -10,6 +10,7 @@
         <module name="CategoryService" />
         <module name="AccountService" />
         <module name="Gateway" />
+        <module name="ProductService" />
         <module name="Eureka_Server" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="CategoryService" target="8" />
       <module name="Eureka_Server" target="8" />
       <module name="Gateway" target="8" />
+      <module name="ProductService" target="23" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +28,7 @@
       <module name="CategoryService" options="-parameters" />
       <module name="Eureka_Server" options="-parameters" />
       <module name="Gateway" options="-parameters" />
+      <module name="ProductService" options="-parameters" />
     </option>
   </component>
 </project>
